@@ -36,6 +36,7 @@ public class listAdapter extends ArrayAdapter<todoData> {
 
         if(view == null){
             view = LayoutInflater.from(getContext()).inflate(R.layout.list_item,parent,false);
+
         }
 
         TextView todoItem = view.findViewById(R.id.txt_todoname);
