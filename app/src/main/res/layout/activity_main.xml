@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#333F3E"
+        android:background="#ecffe9"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="10px"
@@ -22,28 +22,10 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            app:srcCompat="@drawable/img" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
-            android:text="To Do"
-            android:textColor="#E2E3E1"
-            android:textSize="36dp"
-            android:textStyle="bold" />
-
-        <ProgressBar
-            android:id="@+id/progressBar2"
-            style="?android:attr/progressBarStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp" />
+            android:layout_width="153dp"
+            android:layout_height="158dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/logo" />
 
         <TextView
             android:id="@+id/textView2"
@@ -51,8 +33,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="300dp"
             android:gravity="center"
-            android:text="Bsoft Production"
-            android:textColor="#E2E3E1"
-            android:textSize="18dp" />
+            android:text="Create Your Day Effectively"
+            android:textColor="#11170A"
+            android:textSize="25dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
